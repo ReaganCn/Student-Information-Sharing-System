@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sdiss.knd.sdiss.StudentDashboard">
+
+
+    <Button
+        android:id="@+id/newsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/notesbtn"
+        android:layout_marginTop="63dp"
+        android:text="News" />
+
+    <Button
+        android:id="@+id/notesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/timetablebtn"
+        android:layout_below="@+id/newsbtn"
+        android:layout_marginTop="46dp"
+        android:text="Notes" />
+
+        <Button
+            android:id="@+id/timetablebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/chatbtn"
+            android:layout_below="@+id/notesbtn"
+            android:layout_marginTop="50dp"
+            android:text="Timetable" />
+
+        <Button
+            android:id="@+id/chatbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timetablebtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="CHAT" />
+
+
+</RelativeLayout>
+
