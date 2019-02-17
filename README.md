@@ -4,8 +4,13 @@ A system that enables students to share documents and information from their mob
 Uses java,firebase,volley,json, MSQL and PHP.
 
 VOLLEY, JSON, MSQL AND PHP: UPLOAD AND DOWNLOAD DOCUMENTS AND IMAGES since firebase does not support documents
+
+
 FIREBASE: STORE USER ACCOUNTS AND INFORMATION.
-JAVA: OBVIOUSLY THE CODE.
+
+
+JAVA: MAIN PROGRAMMING LANGUAGE.
+
 
 PLATFORM: ANDROID STUDIO
 
